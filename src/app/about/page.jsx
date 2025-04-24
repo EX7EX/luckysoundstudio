@@ -8,24 +8,27 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="Sounds are our passion">
+        <p>
+          We are a team of passionate sound designers and developers who
+          specialize in creating high-quality audio experiences for our
+          clients. Our mission is to help brands tell their stories through
+          sound, and we take pride in our ability to deliver exceptional results
+          that exceed expectations.
+          </p>
         <p>
           We believe that our strength lies in our collaborative approach, which
           puts our clients at the center of everything we do.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
+           Lucky Sound Studio was started by Lucky who noticed that professional
+            sound design was often out of reach for most brands. He realized
+            studios were charging clients more than what an in-house team would
             cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            differently by charging less and delivering more instead.
           </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
+      
         </div>
       </PageIntro>
       <Container className="mt-16">

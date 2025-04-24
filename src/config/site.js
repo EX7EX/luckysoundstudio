@@ -1,6 +1,6 @@
 export function constructMetadata({
-  title = "Abdullah Agency ",
-  description = "Abdullah Agency is an open-source website.",
+  title = "Lucky Sound Studio",
+  description = "Lucky Sound Studio is a master professional sound design studio that specializes in creating high-quality audio experiences for brands and People.",
   image = "/agency.PNG",
   icons = "/favicon.ico",
   noIndex = false,
@@ -22,7 +22,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@KING_IN_JUNGLE",
+      creator: "@bludbroder",
     },
     icons,
     metadataBase: new URL("https://agency-website-abdullah.vercel.app/"),
