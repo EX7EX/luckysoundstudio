@@ -8,31 +8,31 @@ const Build = () => {
     <Section title="Build" image={{ src: imageLaptop, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Guided by insights from the discovery phase, we craft a tailored
+          roadmap for each project—structured, actionable, and aligned with the
+          artist’s vision. Every detail is accounted for to ensure clarity,
+          consistency, and creative excellence from start to finish.
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          Each client is paired with a dedicated account manager who serves as a
+          strategic partner and communication bridge. They ensure you are heard
+          at every stage while keeping the creative and technical teams focused
+          on delivering your project with integrity and precision.
         </p>
         <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
+          Our team approaches every request with the belief that if it's worth
+          doing, it’s worth doing as if God himself asked us to do it. Your
+          sound, your message, and your vision deserve nothing less than our
+          full attention, professionalism, and respect.
         </p>
       </div>
       <Blockquote
         author={{ name: "Debra Fiscal", role: "CEO of Unseal" }}
         className="mt-12"
       >
-        Studio_clone were so regular with their progress updates we almost began
-        to think they were automated!
+        Lucky Sound treated our music like it was sacred. Their dedication to
+        clarity, updates, and excellence felt like working with a divine
+        extension of our team.
       </Blockquote>
     </Section>
   );

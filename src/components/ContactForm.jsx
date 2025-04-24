@@ -31,10 +31,10 @@ const ContactForm = () => {
               <legend className="text-base/6 text-neutral-500">Budget</legend>
             </fieldset>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <RadioInput label="$25K – $50K" name="budget" value="25" />
-              <RadioInput label="$50K – $100K" name="budget" value="50" />
-              <RadioInput label="$100K – $150K" name="budget" value="100" />
-              <RadioInput label="More than $150K" name="budget" value="150" />
+              <RadioInput label="₦25K – ₦50K" name="budget" value="25" />
+              <RadioInput label="₦50K – ₦100K" name="budget" value="50" />
+              <RadioInput label="₦100K – ₦150K" name="budget" value="100" />
+              <RadioInput label="More than ₦150K" name="budget" value="150" />
             </div>
           </div>
         </div>
@@ -47,3 +47,6 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+
+

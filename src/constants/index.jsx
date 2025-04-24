@@ -2,11 +2,11 @@ import { SocialMediaProfiles } from "@/components/SocialMedia";
 
 export const navigation = [
   {
-    title: "Work",
+    title: "Our Work",
     links: [
-      { title: "AH MANA3RAF", href: "/work/amazonclone" },
-      { title: "AH MANA3RAF", href: "/work/bazar" },
-      { title: "AH MANA3RAF", href: "/work/blog101" },
+      { title: "Music Production", href: "/work/musicproduction" },
+      { title: "Movie Dubbing", href: "/work/moviedubbing" },
+      { title: "Sound Design", href: "/work/sounddesign" },
       {
         title: (
           <>
@@ -29,5 +29,13 @@ export const navigation = [
   {
     title: "Connect",
     links: SocialMediaProfiles,
+  },
+];
+  {
+    title: "Legal",
+    links: [
+      { title: "Privacy Policy", href: "/privacy" },
+      { title: "Terms of Service", href: "/terms" },
+    ],
   },
 ];

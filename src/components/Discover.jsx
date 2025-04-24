@@ -8,36 +8,35 @@ const Discover = () => {
     <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          We begin by listening — deeply and intentionally — to understand the 
+          heart of each artist’s sound and the vision behind their work. This 
+          is not just pre-production — it’s communion with the soul of the 
+          music.
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{" "}
-          <strong className="font-semibold text-neutral-950">business</strong>
-          accounts — handing that information over to our forensic accounting
-          team.
+          Whether you're crafting an EP, scoring a film, or designing an 
+          immersive soundscape, we embed ourselves into your creative world. 
+          We study your inspirations, reference tracks, and performance style 
+          to uncover the textures, rhythms, and atmospheres that best serve 
+          your message.
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          At the end of this phase, we deliver a personalized, high-fidelity 
+          production blueprint — from instrumentation and arrangement strategy, 
+          to timelines and budget. This plan becomes the sacred map we follow 
+          through the rest of your sonic journey.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Creative consultation</TagListItem>
+        <TagListItem>Genre alignment & vision discovery</TagListItem>
+        <TagListItem>Instrumentation planning</TagListItem>
+        <TagListItem>Technical feasibility</TagListItem>
+        <TagListItem>Arrangement mockups</TagListItem>
+        <TagListItem>Production budgeting</TagListItem>
       </TagList>
     </Section>
   );

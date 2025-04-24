@@ -15,41 +15,31 @@ const Values = () => {
       </div>
       <SectionIntro
         eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        title="Rooted in purpose, driven by passion"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+          Every note we record, every mix we sculpt, and every voice we dub is guided by the values we live by. Our studio isn’t just about sound — it’s about substance, integrity, and a relentless pursuit of excellence. This is what defines Lucky Sound Studio.
         </p>
       </SectionIntro>
       <Container className="mt-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Precision">
+            We treat every waveform and word with care. From mic placement to mixdown, every decision is intentional, serving the art without compromise.
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Efficiency">
+            Time is sacred. Our workflow is designed to meet deadlines without sacrificing quality, ensuring smooth, focused sessions from start to final master.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Adaptability">
+            Whether you're a rising artist or a seasoned filmmaker, we adapt to your creative language, adjusting our tools and approach to serve your vision.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Transparency">
+            We build trust through clear communication, honest timelines, and a shared understanding of what it takes to bring each project to life.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Commitment">
+            Long-term growth is our aim. We invest in lasting relationships, not just quick turnarounds — because every session is a step toward something greater.
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Innovation">
+            We embrace the future of sound, fusing analog warmth with digital clarity, and exploring new frontiers in immersive audio, AI-enhanced tools, and cinematic storytelling.
           </GridListItem>
         </GridList>
       </Container>
