@@ -1,6 +1,28 @@
-import PageIntro from "@/components/PageIntro";
 import React from "react";
+import PageIntro from "@/components/PageIntro";
 import VideoEmbed from "@/components/VideoEmbed";
+
+const videos = [
+  { id: 1, title: "Project Alpha", videoId: "abc123" },
+  { id: 2, title: "Project Beta", videoId: "def456" },
+  { id: 3, title: "Project Gamma", videoId: "ghi789" },
+];
+
+const VideoSection = () => {
+  return (
+    <section className="mt-16 px-4 sm:px-6 lg:px-8">
+      <h2 className="text-xl font-semibold mb-6">Our Work in Action</h2>
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {videos.map((video) => (
+          <div key={video.id} className="space-y-2">
+            <p className="font-medium">{video.title}</p>
+            <VideoEmbed videoId={video.videoId} />
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 const WorkPage = () => {
   return (
@@ -15,28 +37,9 @@ const WorkPage = () => {
           the same five projects we’ve been developing for the past decade.
         </p>
       </PageIntro>
+      <VideoSection />
     </>
   );
 };
 
 export default WorkPage;
-const videos = [
-  { id: 1, title: "Project Alpha", url: "https://www.youtube.com/embed/abc123" },
-  { id: 2, title: "Project Beta", url: "https://www.youtube.com/embed/def456" },
-  { id: 3, title: "Project Gamma", url: "https://www.youtube.com/embed/ghi789" },
-];
-
-const VideoSection = () => {
-  return (
-    <section>
-      <h2>Our Work in Action</h2>
-      <div>
-        {videos.map((video) => (
-          <VideoEmbed key={video.id} title={video.title} url={video.url} />
-        ))}
-      </div>
-    </section>
-  );
-};
-
-export { VideoSection };
