@@ -20,7 +20,7 @@ const Cultures = () => {
           <GridListItem title="Dedication" invert>
             Our team is committed to delivering exceptional sound experiences, driven by a shared passion for excellence.
           </GridListItem>
-          <GridListItem title="Collaboration" invert></GridListItem>
+          <GridListItem title="Collaboration" invert>
             We thrive on teamwork, fostering an environment where creativity and ideas flow freely.
           </GridListItem>
           <GridListItem title="Integrity" invert>

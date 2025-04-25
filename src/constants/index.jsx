@@ -30,7 +30,6 @@ export const navigation = [
     title: "Connect",
     links: SocialMediaProfiles,
   },
-];
   {
     title: "Legal",
     links: [
