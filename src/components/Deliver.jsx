@@ -33,7 +33,7 @@ const Deliver = () => {
       </h3>
       <List>
         <ListItem title="Mix & Master">
-          Every element is leveled, spatialized, and polished for clarity, 
+          Every element is leveled, spatially adjusted, and polished for clarity, 
           power, and emotional impact — ready for streaming, sync, or stage.
         </ListItem>
         <ListItem title="Delivery Formats">
